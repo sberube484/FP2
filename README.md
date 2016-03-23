@@ -26,4 +26,4 @@ The one thing I particularly liked about the icon library was that you could mak
 Essentially you make a list of stick figures, the range specifies that I want to depict one complete running motion through the use 
 of 8 images. The diagram below shows the resulting  images from my code.
 
-![alt tag]
+![alt tag] (https://github.com/sberube484/FP2/blob/master/explore2photo.PNG)
