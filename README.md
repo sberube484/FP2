@@ -17,8 +17,8 @@ Once you define the type of logo, you have other options to edit your image such
 
 The one thing I particularly liked about the icon library was that you could make animations, such as a man running.
 
-(for/list ([t  (in-range 0 1 1/8)])
-    (running-stickman-icon t #:body-color "pink" #:head-color "red" #:arm-color "purple" #:height 40))
+* (for/list ([t  (in-range 0 1 1/8)])
+    * (running-stickman-icon t #:body-color "pink" #:head-color "red" #:arm-color "purple" #:height 40))
     
 Essentially you make a list of stick figures, the range specifies that I want to depict one complete running motion through the use 
 of 8 images. 
