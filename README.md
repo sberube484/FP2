@@ -56,4 +56,4 @@ This code constructs a flo-map with four ellispes. Like the icons and logos, you
 The diagram below shows the resulting  images from my code. The first 4 are icons (the 4th being the animation) and the planet is a logo.
 
 ![alt tag] (https://github.com/sberube484/FP2/blob/master/explore2photo.PNG)
-![alt tag]
+![alt tag] (https://github.com/sberube484/FP2/blob/master/explore2photo2.PNG)
