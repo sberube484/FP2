@@ -23,28 +23,6 @@ The one thing I particularly liked about the icon library was that you could mak
 Essentially you make a list of stick figures, the range specifies that I want to depict one complete running motion through the use 
 of 8 images. 
 
-(define seanmap
-    (draw-flomap
-     (λ (fm-dc)
-       (send fm-dc set-alpha 0)
-       (send fm-dc set-background "black")
-       (send fm-dc clear)
-       (send fm-dc set-alpha 1/3)
-       (send fm-dc translate 2 2)
-       (send fm-dc set-pen "purple" 4 'long-dash) ;;affects outline of diagram
-       (send fm-dc set-brush "red" 'solid) ;;drawing and picking the colors and positions for 4 ellipses
-       (send fm-dc draw-ellipse 0 0 192 192)
-       (send fm-dc set-brush "green" 'solid)
-       (send fm-dc draw-ellipse 64 0 192 192)
-       (send fm-dc set-brush "blue" 'solid)
-       (send fm-dc draw-ellipse 32 44 192 192)
-       (send fm-dc set-brush "orange" 'solid)
-       (send fm-dc draw-ellipse 84 44 192 192))
-     260 240))
-> (flomap->bitmap seanmap)
-
-This code constructs a flo-map with four ellispes. Like the icons and logos, you can determine the size and color of them, but you also have the ability to choose their location by giving values to the first two paramters of draw-ellipse.
-
 ##Diagram/Output
 The diagram below shows the resulting  images from my code. The first 4 are icons (the 4th being the animation) and the planet is a logo. The mess of circles cluttered together would be the flomap I created.
 
