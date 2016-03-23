@@ -3,7 +3,7 @@ My name: Sean Berube
 
 ##Narrative
 Since I'm very much drawn to visual based creations, I decided to use images for my second library. There are two types of images that
-can be created in this library - icons and logos. From my experience icons seemed to be more versatile and in depth in terms of what pictures you can create and what you can do with them. Compared to the turtles library, images appears to be simpler in terms of what you can accomplish as its essentially just choosing a particular icon/logo, and then tweaking its appearance to your liking. That said I found the running man animations to be a really neat feature of the library. You can also using floating-point bitmaps to make flomaps, which resemble venn-diagrams in appearance.
+can be created in this library - icons and logos. From my experience icons seemed to be more versatile and in depth in terms of what pictures you can create and what you can do with them. Compared to the turtles library, images appears to be simpler in terms of what you can accomplish as its essentially just choosing a particular icon/logo, and then tweaking its appearance to your liking. That said I found the running man animations to be a really neat feature of the library. You can also using floating-point bitmaps to make flomaps, which resemble venn-diagrams in their appearance.
 
 ##Highlights
 The code below shows how I made a foot-icon, and a planet-logo.
