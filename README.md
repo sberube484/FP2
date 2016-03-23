@@ -8,10 +8,10 @@ can be created in this library - icons and logos. From my experience icons seeme
 ##Highlights
 The code below shows how I made a foot-icon, and a planet-logo.
 
-(foot-icon #:color "yellow" #:height 124
+*(foot-icon #:color "yellow" #:height 124
              #:material glass-icon-material)
              
-(planet-logo #:height 60)
+*(planet-logo #:height 60)
 
 Once you define the type of logo, you have other options to edit your image such as altering its color, size, and material which changes the aesthetic appearance of the image itself (i.e. glass might make it more shiny).
 
