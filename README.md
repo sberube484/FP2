@@ -1,16 +1,9 @@
 ## My Library: Images
 My name: Sean Berube
-Write what you did!
-Remember that this report must include:
-
-* a narrative of what you did
-* highlights of code that you wrote, with explanation
-* output from your code demonstrating what it produced
-* at least one diagram or figure showing your work
 
 ##Narrative
 Since I'm very much drawn to visual based creations, I decided to use images for my second library. There are two types of images that
-can be created in this library - icons and logos. From my experience icons seemed to be more versatile and in depth in terms of what pictures you can create and what you can do with them. Compared to the turtles library, images appears to be simpler in terms of what you can accomplish as its essentially just choosing a particular icon/logo, and then tweaking its appearance to your liking. That said I found the running man animations to be a really neat feature of the library. However, you can also using floating-point bitmaps to make flomaps, which resemble venn-diagrams in appearance.
+can be created in this library - icons and logos. From my experience icons seemed to be more versatile and in depth in terms of what pictures you can create and what you can do with them. Compared to the turtles library, images appears to be simpler in terms of what you can accomplish as its essentially just choosing a particular icon/logo, and then tweaking its appearance to your liking. That said I found the running man animations to be a really neat feature of the library. You can also using floating-point bitmaps to make flomaps, which resemble venn-diagrams in appearance.
 
 ##Highlights
 The code below shows how I made a foot-icon, and a planet-logo.
@@ -53,7 +46,7 @@ of 8 images.
 This code constructs a flo-map with four ellispes. Like the icons and logos, you can determine the size and color of them, but you also have the ability to choose their location by giving values to the first two paramters of draw-ellipse.
 
 ##Diagram/Output
-The diagram below shows the resulting  images from my code. The first 4 are icons (the 4th being the animation) and the planet is a logo.
+The diagram below shows the resulting  images from my code. The first 4 are icons (the 4th being the animation) and the planet is a logo. The mess of circles cluttered together would be the flomap I created.
 
 ![alt tag] (https://github.com/sberube484/FP2/blob/master/explore2photo.PNG)
 ![alt tag] (https://github.com/sberube484/FP2/blob/master/explore2photo2.PNG)
