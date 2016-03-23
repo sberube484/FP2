@@ -23,6 +23,13 @@ The one thing I particularly liked about the icon library was that you could mak
 Essentially you make a list of stick figures, the range specifies that I want to depict one complete running motion through the use 
 of 8 images. 
 
+The code below shows an example of how to create an ellipses in a flomap.
+
+      * (send fm-dc set-brush "orange" 'solid)
+      * (send fm-dc draw-ellipse 84 44 192 192))
+
+Like an icon or logo, you can affect the color and size of the ellipses, but what's unqiue about this image is that you can use the first two paramters of draw-ellipse to alter the location of where the picture will be placed.
+
 ##Diagram/Output
 The diagram below shows the resulting  images from my code. The first 4 are icons (the 4th being the animation) and the planet is a logo. The mess of circles cluttered together would be the flomap I created.
 
